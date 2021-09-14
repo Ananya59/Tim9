@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding-top: 800px;
-
+    text-align: center;
 }
 
 .profile {
@@ -39,7 +39,6 @@ h1 {
     font-size: 30px;
     line-height: 1.2;
     font-family: 'Marck Script', cursive
-
 }
 
 h2 {
@@ -81,8 +80,9 @@ p {
 
 
 }
-.menu{
-  list-style: none;
+
+.menu {
+    list-style: none;
     font-family: sans-serif;
     position: absolute;
     top: 10px;
@@ -90,7 +90,8 @@ p {
     z-index: 10;
     cursor: pointer;
 }
-.links{
+
+.links {
     float: left;
     color: white;
     padding-top: 5px;
@@ -99,9 +100,22 @@ p {
     padding-bottom: 5px;
     font-family: fantasy;
     font-size: 20px;
-    
-}
-.links:hover{
-    background-color:darkmagenta;
 
+}
+
+.links:hover {
+    background-color: darkmagenta;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: deepskyblue;
+}
+
+html {
+    scroll-behavior: smooth;
 }
